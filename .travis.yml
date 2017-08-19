@@ -1,12 +1,10 @@
-#.travis.yml
-
 language: node_js
 node_js:
   - "6.9"
 
-  branches:
-    only:
-      - development
+branches:
+  only:
+    - development
 
 before_script:
   - npm install -g @angular/cli
